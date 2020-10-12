@@ -1,0 +1,9 @@
+package com.coomeva.test.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.coomeva.test.model.uname;
+
+public interface unameRepository extends CrudRepository<uname, Integer> {
+     validation
+}
